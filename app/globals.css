@@ -268,3 +268,13 @@ footer{
   h1{ font-size:40px; }
   nav{ display:none; }
 }
+/* Detalle orgánico tipo jirafa */
+.hero::after{
+  content:"";
+  position:absolute;
+  inset:0;
+  pointer-events:none;
+  background-image:
+    radial-gradient(circle at 10% 30%, rgba(181,139,85,.06) 0 18px, transparent 19px),
+    radial-gradient(circle at 80% 20%, rgba(214,201,165,.08) 0 16px, transparent 17px);
+}
