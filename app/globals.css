@@ -1,14 +1,21 @@
 :root{
-  --bg:#fbfbfa;
+  /* Base */
+  --bg:#f9f9f7;              /* blanco hueso */
   --card:#ffffff;
-  --ink:#152522;
-  --muted:#5f6f6b;
-  --line:#e8eeec;
-  --sage:#4f7f6a;
-  --sage2:#2f5f4f;
-  --shadow: 0 18px 60px rgba(18,30,27,.10);
+  --ink:#1b1f1a;             /* negro oliva */
+  --muted:#6b726e;           /* gris natural */
+  --line:#e6e6e2;
+
+  /* Inspiración jirafa */
+  --olive:#6b7a3a;           /* verde oliva real */
+  --olive-dark:#4f5c2b;
+  --sand:#d6c9a5;            /* arena */
+  --caramel:#b58b55;         /* caramelo suave */
+
+  --shadow: 0 20px 60px rgba(0,0,0,.06);
   --radius: 22px;
 }
+
 
 *{ box-sizing:border-box; }
 html,body{ height:100%; }
@@ -17,9 +24,10 @@ body{
   font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
   color:var(--ink);
   background:
-    radial-gradient(1200px 600px at 20% 10%, rgba(79,127,106,.12), transparent 55%),
-    radial-gradient(900px 500px at 80% 0%, rgba(47,95,79,.10), transparent 60%),
-    var(--bg);
+  radial-gradient(900px 500px at 20% 10%, rgba(214,201,165,.18), transparent 60%),
+  radial-gradient(900px 500px at 80% 0%, rgba(107,122,58,.10), transparent 60%),
+  var(--bg);
+
   letter-spacing:.2px;
 }
 
