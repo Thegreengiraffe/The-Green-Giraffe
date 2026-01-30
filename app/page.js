@@ -58,14 +58,13 @@ export default function Home() {
       <AgeGate />
 
       <header>
-        <div className="wrap nav">
-          <div className="brand">
-            <div className="mark" aria-hidden="true">🦒</div>
-            <div>
-              <div style={{ fontSize: 13, color: "var(--muted)", letterSpacing: ".35px" }}>THE GREEN GIRAFFE</div>
-              <div style={{ fontSize: 15 }}>Dispensary</div>
-            </div>
-          </div>
+        <div className="brand">
+  <img
+    src="/logo.png"
+    alt="The Green Giraffe Dispensary Logo"
+    style={{ height: 48, width: "auto" }}
+  />
+</div>
 
           <nav aria-label="Primary">
             <a href="#about">About</a>
