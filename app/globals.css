@@ -81,9 +81,16 @@ nav a:hover{
   font-size:13px;
   cursor:pointer;
 }
-.btn:hover{ background:#fff; }
 .btn.primary{
-  background:var(--sage);
+  background:var(--olive);
+  border-color:transparent;
+  color:#fff;
+}
+
+.btn.primary:hover{
+  background:var(--olive-dark);
+}
+;
   border-color:transparent;
   color:#fff;
 }
