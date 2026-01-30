@@ -84,6 +84,13 @@ export default function Home() {
       </header>
 
       <main>
+    <div className="brand">
+  <img
+    src="/logo.png"
+    alt="The Green Giraffe Dispensary Logo"
+    style={{ height: 48, width: "auto" }}
+  />
+</div>
         <div className="wrap hero">
           <div className="heroGrid">
             <div className="panel">
